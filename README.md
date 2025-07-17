@@ -19,7 +19,7 @@ A simple and responsive Pinterest-inspired UI project where users can upload, pr
 
 Preview
 
-![screenshot] : [./preview.png]
+![screenshot](./preview.png)
 
 Live Demo: 
 
