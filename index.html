@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pinterest Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Keerti's Pinterest Clone</h1>
+    <button class="toggle-btn" id="toggleMode">Toggle Dark Mode</button>
+
+    <form id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search Google..." autocomplete="off" />
+      <button type="submit">Search</button>
+      <button type="button" id="clearBtn">Clear History</button>
+    </form>
+  </header>
+
+  <section id="savedImages">
+    <h2>My Pinterest Saved Images</h2>
+    <div class="grid" id="gridContainer"></div>
+  </section>
+
+  <section id="trashImages">
+    <h2>🗑️ Trash</h2>
+    <div class="grid" id="trashContainer"></div>
+  </section>
+
+  <!-- Save Image Modal -->
+  <div id="saveModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h3>Save Image to Pinterest</h3>
+      <input type="text" id="imageUrl" placeholder="Paste Image URL (optional)" />
+      <p>OR upload from device:</p>
+      <input type="file" id="imageUpload" accept="image/*" />
+      <input type="text" id="imageName" placeholder="Custom Name" />
+      <button id="saveImageBtn">Save</button>
+    </div>
+  </div>
+
+  <!-- Preview Modal -->
+  <div id="previewModal" class="modal">
+    <div class="modal-content preview-box">
+      <span class="close-preview">&times;</span>
+      <img id="previewImg" src="" alt="Preview" />
+      <p id="previewCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
