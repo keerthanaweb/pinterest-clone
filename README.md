@@ -1,6 +1,6 @@
 📌 Pinterest Clone
 
-A simple and responsive Pinterest-inspired UI project where users can upload, preview, delete, and search for images. Made with love using HTML, CSS, and JavaScript ❤️
+A simple and responsive Pinterest-inspired UI project where users can upload, preview, delete, and search for images. Made with love using HTML, CSS, and JavaScript ❤.
 
  Features
 
@@ -23,5 +23,8 @@ Preview
 
 Live Demo: 
 
-## 📁 Folder Structure
-
+📁 Folder Structure
+-index.html
+-style.css
+-script.js
+images\
