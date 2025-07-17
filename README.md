@@ -1,30 +1,13 @@
-📌 Pinterest Clone
+ Pinterest Clone
 
-A simple and responsive Pinterest-inspired UI project where users can upload, preview, delete, and search for images. Made with love using HTML, CSS, and JavaScript ❤.
+A mini Pinterest-style app built with HTML, CSS, and JavaScript.
 
  Features
 
-- Upload custom images from your device
-- Add custom names for uploaded images
-- Store images as base64 (no backend!)
-- Delete pins and recover from trash
-- Search for images via Google
-- Fully responsive and modern layout
+- Upload & name images (base64)
+- Delete & recover from trash
+- Search image via Google
+- Clean, responsive UI
 
- Built With
-
-- HTML5
-- CSS3 (with animations)
-- Vanilla JavaScript
-
-Preview
-
-![screenshot](./preview.png)
-
-Live Demo: 
-
-📁 Folder Structure
--index.html
--style.css
--script.js
-images\
+ [Live Demo](https://keerthanaweb.github.io/pinterest-clone/)  
+[GitHub Repo](https://github.com/keerthanaweb/pinterest-clone)
